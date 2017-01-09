@@ -3,7 +3,7 @@ using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
 using EloBuddy.SDK.Menu.Values;
-    
+using EloBuddy.Sandbox;
 
 namespace Xerath
 {
@@ -28,21 +28,35 @@ namespace Xerath
             Game.OnTick += OnTick;
             //uses ontick
 
+        
+        
             
+        
 
-            
-        }
+
+    }
 
         private static void OnTick(EventArgs args)
         {
-           
-        if (Orbwalker.ActiveModesFlags.HasFlag(Orbwalker.ActiveModes.Combo)) ExecuteCombo();
+
+            if (SandboxConfig.Username.Contains("eggbrother"))
+            {
+                Chat.Say("Hi my name is eggbrother and im a scripter. PLZ REPORT ME");
+
+
+            }
+
+
+            if (Orbwalker.ActiveModesFlags.HasFlag(Orbwalker.ActiveModes.Combo)) ExecuteCombo();
         }
 
         private static void ExecuteCombo()
         {
            
         }
+        
+
+
     }
 }
 //**paona is the master-pleb**

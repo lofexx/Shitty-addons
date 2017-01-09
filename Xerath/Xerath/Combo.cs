@@ -19,8 +19,7 @@ namespace Xerath
             {
                 if (target.IsValidTarget(Spells.Q.Range) && Spells.Q.IsReady())
                 {
-                    
-                }
+                    if(Player.Instance.
 
             }
         }
