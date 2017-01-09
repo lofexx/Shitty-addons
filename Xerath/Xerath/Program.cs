@@ -13,7 +13,7 @@ namespace Xerath
         {
             Loading.OnLoadingComplete += OnLoadingComplete;
       
-
+            
 
         }
 
@@ -36,8 +36,7 @@ namespace Xerath
         private static void OnTick(EventArgs args)
         {
            
-
-            if (Orbwalker.ActiveModesFlags.HasFlag(Orbwalker.ActiveModes.Combo)) ExecuteCombo();
+        if (Orbwalker.ActiveModesFlags.HasFlag(Orbwalker.ActiveModes.Combo)) ExecuteCombo();
         }
 
         private static void ExecuteCombo()
@@ -46,7 +45,7 @@ namespace Xerath
         }
     }
 }
-//**paona is a pleb**
+//**paona is the master-pleb**
 
     //report melanie for doxing me
     //Wanna swap name yorik100?
