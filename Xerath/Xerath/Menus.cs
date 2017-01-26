@@ -27,7 +27,7 @@ namespace Xerath
             ComboMenu.Add("E", new CheckBox("Use E"));
             ComboMenu.Add("R", new CheckBox("Use R"));
 
-            DrawingsMenu.AddGroupLabel("Drawings";
+            DrawingsMenu.AddGroupLabel("Drawings");
             DrawingsMenu.Add("Q", new CheckBox("Draw Q"));
             DrawingsMenu.Add("W", new CheckBox("Draw W"));
             DrawingsMenu.Add("E", new CheckBox("Draw E"));
